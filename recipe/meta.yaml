@@ -27,10 +27,13 @@ requirements:
   host:
     - r-base
     - r-stanheaders
+    - r-timetk >=2.6.0
     - r-cli
     - r-dials
+    - r-doparallel
     - r-dplyr
     - r-forcats
+    - r-foreach
     - r-forecast
     - r-ggplot2
     - r-glue
@@ -38,9 +41,8 @@ requirements:
     - r-hardhat
     - r-janitor
     - r-magrittr
-    - r-parsnip >=0.1.4
+    - r-parsnip >=0.1.6
     - r-plotly
-    - r-progressr
     - r-prophet
     - r-purrr
     - r-reactable
@@ -56,10 +58,13 @@ requirements:
   run:
     - r-base
     - r-stanheaders
+    - r-timetk >=2.6.0
     - r-cli
     - r-dials
+    - r-doparallel
     - r-dplyr
     - r-forcats
+    - r-foreach
     - r-forecast
     - r-ggplot2
     - r-glue
@@ -67,9 +72,8 @@ requirements:
     - r-hardhat
     - r-janitor
     - r-magrittr
-    - r-parsnip >=0.1.4
+    - r-parsnip >=0.1.6
     - r-plotly
-    - r-progressr
     - r-prophet
     - r-purrr
     - r-reactable
