@@ -1,4 +1,4 @@
-{% set version = '0.5.1' %}
+{% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/modeltime_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/modeltime/modeltime_{{ version }}.tar.gz
-  sha256: 3e3a52425b60dd4ab0de89fe4c1b0e26be5b5fce63343783ee4a571fa2024881
+  sha256: dd9562c51e5085d70bf5d07ddc4330b6369b90a9e11101d61c51ef43066abe9b
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -91,11 +91,8 @@ test:
 about:
   home: https://github.com/business-science/modeltime
   license: MIT
-  summary: 'The time series forecasting framework for use with the ''tidymodels'' ecosystem.
-    Models include ARIMA, Exponential Smoothing, and additional time series models from
-    the ''forecast'' and ''prophet'' packages. Refer to "Forecasting Principles & Practice,
-    Second edition" (<https://otexts.com/fpp2/>). Refer to "Prophet: forecasting at
-    scale" (<https://research.fb.com/blog/2017/02/prophet-forecasting-at-scale/>.).'
+  summary: "The time series forecasting framework for use with the 'tidymodels' ecosystem. Models include ARIMA, Exponential Smoothing, and additional time series models from the 'forecast' and 'prophet' packages. Refer to \"Forecasting Principles & Practice, Second edition\" (<https://otexts.com/fpp2/>). Refer to \"Prophet:\
+    \ forecasting at scale\" (<https://research.fb.com/blog/2017/02/prophet-forecasting-at-scale/>.)."
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
