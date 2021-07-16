@@ -1,4 +1,4 @@
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/modeltime_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/modeltime/modeltime_{{ version }}.tar.gz
-  sha256: 981f4258c055404b70a8fa32d4864c08a656f31ed70118e4718d90e85d261a7a
+  sha256: 8320692155a2c5463c82e80a6d6d5c433c3bfb3e73dbfcfaeec344a73366d817
 
 build:
   merge_build_host: true  # [win]
