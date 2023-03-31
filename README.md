@@ -1,11 +1,11 @@
-About r-modeltime
-=================
+About r-modeltime-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-modeltime-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/business-science/modeltime
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-modeltime-feedstock/blob/main/LICENSE.txt)
 
 Summary: The time series forecasting framework for use with the 'tidymodels' ecosystem. Models include ARIMA, Exponential Smoothing, and additional time series models from the 'forecast' and 'prophet' packages. Refer to "Forecasting Principles & Practice, Second edition" (<https://otexts.com/fpp2/>). Refer to "Prophet: forecasting at scale" (<https://research.fb.com/blog/2017/02/prophet-forecasting-at-scale/>.).
 
